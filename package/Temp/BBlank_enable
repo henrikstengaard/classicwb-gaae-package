@@ -1,0 +1,4 @@
+IF EXISTS SYSTEMDIR:C/BorderBlank_disabled
+  Rename SYSTEMDIR:C/BorderBlank_disabled SYSTEMDIR:C/BorderBlank
+ELSE
+EndIF

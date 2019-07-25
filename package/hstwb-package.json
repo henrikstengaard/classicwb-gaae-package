@@ -1,0 +1,20 @@
+{
+    "contentIds":
+    [
+        "classicwb",
+        "amigaos"
+    ],
+    "name": "ClassicWB GAAE",
+    "version": "28.1.0",
+    "priority": 1,
+    "assigns":
+    [
+        {
+            "name": "SYSTEMDIR"
+        }
+    ],
+    "amigaOsVersions": [
+        "3.1",
+        "3.1.4"
+    ]    
+}

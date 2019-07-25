@@ -1,0 +1,7 @@
+IF NOT EXISTS SYSTEMDIR:Prefs/Env-Archive/Newicons.prefs
+  Copy SYSTEMDIR:Prefs/Presets/Newicons.prefs SYSTEMDIR:Prefs/Env-Archive/Newicons.prefs
+  IF EXISTS SYSTEMDIR:C/NewIcons_disabled
+    Rename SYSTEMDIR:C/NewIcons_disabled SYSTEMDIR:C/NewIcons
+  EndIF
+ELSE
+EndIF
