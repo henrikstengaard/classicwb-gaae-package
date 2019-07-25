@@ -42,6 +42,9 @@ The install script for HstWB Installer is based on S/Startup-Sequence from Class
 - Removed and reduced waits.
 - Adjusted text spacing.
 - Added support for Amiga OS 3.1.4:
+  - Disabled NewIcons.
+  - Added arp.library and reqtools.library.
+  - Installed FullPalette and patched green, blue and WB13 palettes.
   - Added LoadModule ROMUPDATE to support Kickstart 3.1 being patched to 3.1.4.
   - Added version checking of DEVS:scsi.device, so it only will be loaded if scsi.device in memory/resident is less than v43.45.
   - Added install patch Amiga OS 3.1.4.1, if Amiga OS 3.1.4.1 update is installed.
@@ -49,6 +52,12 @@ The install script for HstWB Installer is based on S/Startup-Sequence from Class
 ## Screenshots
 
 Screenshots of ClassicWB GAAE from http://classicwb.abime.net/classicweb/gaaepics.htm.
+
+![ClassicWB GAAE 3.1.4 1](screenshots/classicwb_gaae_3.1.4_1.png?raw=true)
+
+![ClassicWB GAAE 3.1.4 2](screenshots/classicwb_gaae_3.1.4_2.png?raw=true)
+
+![ClassicWB GAAE 3.1.4 3](screenshots/classicwb_gaae_3.1.4_3.png?raw=true)
 
 ![ClassicWB GAAE 1](screenshots/classicwb_gaae_1.png?raw=true)
 
