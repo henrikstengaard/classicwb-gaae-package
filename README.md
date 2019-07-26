@@ -59,6 +59,8 @@ Screenshots of ClassicWB GAAE from http://classicwb.abime.net/classicweb/gaaepic
 
 ![ClassicWB GAAE 3.1.4 3](screenshots/classicwb_gaae_3.1.4_3.png?raw=true)
 
+![ClassicWB GAAE 3.1.4 4](screenshots/classicwb_gaae_3.1.4_4.png?raw=true)
+
 ![ClassicWB GAAE 1](screenshots/classicwb_gaae_1.png?raw=true)
 
 ![ClassicWB GAAE 2](screenshots/classicwb_gaae_2.png?raw=true)
