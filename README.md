@@ -45,6 +45,7 @@ The install script for HstWB Installer is based on S/Startup-Sequence from Class
   - Disabled NewIcons.
   - Added arp.library and reqtools.library.
   - Installed FullPalette and patched green, blue and WB13 palettes.
+  - Added WB13 pointer.
   - Added LoadModule ROMUPDATE to support Kickstart 3.1 being patched to 3.1.4.
   - Added version checking of DEVS:scsi.device, so it only will be loaded if scsi.device in memory/resident is less than v43.45.
   - Added install patch Amiga OS 3.1.4.1, if Amiga OS 3.1.4.1 update is installed.
