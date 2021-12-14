@@ -1,0 +1,43 @@
+;ClassicWB User-Startup
+;----------------------
+;GAAE
+
+IF EXISTS C:AntiClick
+  C:Anticlick
+EndIF
+
+Execute S:Assign-Startup
+
+Assign >NIL: LAUNCH: SYS:System/BMenu/Files
+Assign >NIL: HELP: SYS:Help
+Assign >NIL: JPEGTMP: SYS:T
+
+Assign >NIL: Dopus: A-Programs:DirOpus4
+IF EXISTS SYS:WBStartup/AmiDock
+  Assign >NIL: Dock: SYS:System/Dock/Files
+EndIF
+
+If Not Exists RAM:Disk.info
+  C:Copy >NIL: SYS:S/Ram.info RAM:Disk.info
+EndIf
+
+If Exists C:RamSnap
+  Run >NIL: C:RamSnap
+EndIf 
+
+C:Mount KCON: from DEVS:KingCON-mountlist
+C:Mount KRAW: from DEVS:KingCON-mountlist
+
+IF EXISTS C:NewIcons
+  Run <>NIL: C:NewIcons
+EndIF
+
+IF EXISTS C:BorderBlank
+  C:BorderBlank
+EndIF
+
+Run >NIL: C:XpkMasterPrefs
+
+IF EXISTS C:StackAttack
+  C:StackAttack AUTO
+EndIF

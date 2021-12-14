@@ -1,0 +1,18 @@
+; Boot Patches Startup
+; --------------------
+
+IF EXISTS C:FPPrefs
+  C:FPPrefs
+EndIF
+
+IF EXISTS C:PatchRAM
+  C:PatchRAM
+EndIF
+
+IF EXISTS C:TagLiFE
+  C:TagLiFE
+EndIF
+
+Echo "Kickstart $Kickstart, Workbench $Workbench"
+Echo ""
+Echo "Green Amiga Alien Addition"
